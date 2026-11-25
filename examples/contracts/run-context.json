@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "campaign_id": "example-campaign-001",
+  "expected_stands": ["stand-01", "stand-02"],
+  "run_refs": [
+    {"source_instance": "example-rp", "project_key": "example", "launch_id": "12345", "stand_id": "stand-01"},
+    {"source_instance": "example-rp", "project_key": "example", "launch_id": "12346", "stand_id": "stand-02"}
+  ],
+  "ci_provider": "jenkins",
+  "build_url": null,
+  "git_sha": "0123456789abcdef0123456789abcdef01234567",
+  "metadata": {"firmware_version": "example-2.15.0"}
+}

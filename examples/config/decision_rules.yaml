@@ -1,0 +1,43 @@
+# Illustrative future Rule Engine schema, not a working application configuration.
+# Evaluate rules top to bottom; AND between conditions. Unknown conditions are forbidden.
+schema_version: '1.0'
+rules:
+  - id: publication_blocked
+    conditions: {publication_blocked: true}
+    action: defer_publication
+  - id: known_open
+    conditions: {duplicate_status: confirmed, issue_closed: false}
+    action: add_comment
+  - id: known_closed
+    conditions: {duplicate_status: confirmed, issue_closed: true}
+    action: apply_closed_issue_policy
+  - id: technical_failure
+    conditions: {analysis_status: technical_error}
+    action: report_only
+  - id: ambiguous
+    conditions: {duplicate_status: ambiguous}
+    action: find_or_create_investigation
+  - id: product
+    conditions: {duplicate_status: not_found, category: product_bug, root_cause_supported: true, analysis_status: analyzed}
+    action: create_routed_issue
+  - id: automation
+    conditions: {duplicate_status: not_found, category: automation_bug, root_cause_supported: true, analysis_status: analyzed}
+    action: create_routed_issue
+  - id: stand
+    conditions: {duplicate_status: not_found, category: stand_issue, root_cause_supported: true, analysis_status: analyzed}
+    action: create_routed_issue
+  - id: unresolved
+    conditions: {analysis_status: needs_investigation}
+    action: find_or_create_investigation
+  - id: insufficient_data
+    conditions: {analysis_status: insufficient_data}
+    action: find_or_create_investigation
+  - id: unknown
+    conditions: {category: unknown}
+    action: find_or_create_investigation
+default_action: report_only
+# Global guards: publication_blocked derived from lookup_failed, missing route,
+# unresolved previous write etc. Never trust LLM-supplied guard values.
+closed_issue_policy:
+  rules: []
+  default_action: defer_publication

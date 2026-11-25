@@ -1,0 +1,51 @@
+# Design example. Placeholder/null values must block production publication.
+schema_version: '1.0'
+execution:
+  publish_enabled: false
+  single_publisher_required: true
+  language: en
+storage:
+  runtime: {adapter: json, path: ./data/state}
+  defect_registry: {adapter: jira, fingerprint_backend: null}
+  artifacts: {adapter: filesystem, path: ./data/artifacts}
+campaign:
+  expected_stands: []
+  incomplete_policy: partial # proposed default; configurable wait/partial/skip
+  wait_timeout_seconds: null
+  attribute_name: campaign_id
+sources:
+  primary: reportportal
+  enrichment: [junit, html, dut_logs, ci_artifacts, git]
+  reportportal:
+    transport: mcp
+    fallback: rest
+    endpoint_env: RP_URL
+    project_env: RP_PROJECT
+    token_env: RP_TOKEN
+llm:
+  adapter: openai_compatible
+  base_url_env: LLM_BASE_URL
+  api_key_env: LLM_API_KEY
+  model_env: LLM_MODEL
+  json_mode: true
+  tool_calling_enabled: false
+  # Example budget; tune during the spike.
+  max_retries: 2
+  timeout_seconds: 120
+jira:
+  transport: mcp
+  fallback: rest
+  routes:
+    product_bug: {project: null, issue_type: Bug, scope: project}
+    automation_bug: {project: null, issue_type: Bug, scope: project}
+    stand_issue: {project: null, issue_type: null, scope: stand}
+    unknown: {project: null, issue_type: Task, scope: stand}
+  stand_overrides: {}
+confluence:
+  transport: mcp
+  fallback: rest
+  space: null
+  parent_page_id: null
+  report_scope: campaign
+  publish_policy: always
+  language: en

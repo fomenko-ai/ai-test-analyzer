@@ -1,0 +1,3 @@
+# Bootstrap templates
+
+Copy to root of future implementation after reviewing `../../docs/dependencies.md`. These are templates, not an executable project. No application, lockfile, verified image digest or successful build is included. Add `src/ai_test_analyzer/cli.py` and tests first; generate lock on target Python 3.14. Ensure runtime configs, prompts, and templates are packaged or mounted read-only; mount writable state/data as analyzer user. Add a `.dockerignore` to exclude credentials, logs, artifacts and local Git. Use corporate CA and registries as required. All extras are installed in the proposed image to support all input sources.

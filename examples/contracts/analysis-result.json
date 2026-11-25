@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "group_id": "example-group-001",
+  "analysis_status": "needs_investigation",
+  "category": "unknown",
+  "symptom": "Device did not respond after update",
+  "root_cause": null,
+  "hypotheses": ["Firmware initialization issue", "Timeout configured too low"],
+  "evidence_ids": ["example-log-001"],
+  "missing_data": ["DUT boot log"],
+  "suggested_checks": ["Compare DUT boot duration with configured timeout"],
+  "model_id": "example-model",
+  "prompt_version": "example-1"
+}
