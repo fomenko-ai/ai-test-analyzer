@@ -2,7 +2,7 @@
 
 Design documentation version: **0.1.0 (MVP)**. 
 
-**Status:** Requirements agreed; architecture proposed. This is a design package, not a working application. Commands, configuration schemas and contracts describe the future implementation. Corporate integrations have not been tested.
+**Status:** Local Phase 0 closeout is documented in [technical-spike-results.md](docs/technical-spike-results.md); corporate checks remain blocked. Stage 1 has not started. Requirements agreed; architecture proposed. This is a design package, not a working application. Commands, configuration schemas and contracts describe the future implementation. Corporate integrations have not been tested.
 
 `ai-test-analyzer` is a CI/CD-independent, AI-powered test results analyzer. It collects results and logs, groups failures, identifies known defects, analyzes unknown failures using a corporate LLM, applies business rules, creates Jira issues and comments, and publishes Confluence reports. It is not limited to nightly runs or regression testing.
 

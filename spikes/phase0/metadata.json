@@ -1,0 +1,1363 @@
+{
+  "openai": {
+    "version": "3.60.0",
+    "requires_python": ">=3.10",
+    "source": "https://pypi.org/pypi/openai/json",
+    "files": [
+      {
+        "filename": "openai-3.60.0-py3-none-any.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-26T07:10:35.780373Z"
+      },
+      {
+        "filename": "openai-3.60.0.tar.gz",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-26T07:10:37.418992Z"
+      }
+    ]
+  },
+  "mcp": {
+    "version": "2.3.0",
+    "requires_python": ">=3.10",
+    "source": "https://pypi.org/pypi/mcp/json",
+    "files": [
+      {
+        "filename": "mcp-2.3.0-py3-none-any.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-02T22:06:52.119073Z"
+      },
+      {
+        "filename": "mcp-2.3.0.tar.gz",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-02T22:06:56.091381Z"
+      }
+    ]
+  },
+  "pydantic": {
+    "version": "2.14.4",
+    "requires_python": ">=3.10",
+    "source": "https://pypi.org/pypi/pydantic/json",
+    "files": [
+      {
+        "filename": "pydantic-2.14.4-py3-none-any.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T12:57:37.688752Z"
+      },
+      {
+        "filename": "pydantic-2.14.4.tar.gz",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T12:57:39.767682Z"
+      }
+    ]
+  },
+  "pydantic-settings": {
+    "version": "2.16.3",
+    "requires_python": ">=3.11",
+    "source": "https://pypi.org/pypi/pydantic-settings/json",
+    "files": [
+      {
+        "filename": "pydantic_settings-2.16.3-py3-none-any.whl",
+        "requires_python": ">=3.11",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-13T11:18:28.730227Z"
+      },
+      {
+        "filename": "pydantic_settings-2.16.3.tar.gz",
+        "requires_python": ">=3.11",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-13T11:18:30.102353Z"
+      }
+    ]
+  },
+  "httpx": {
+    "version": "0.28.1",
+    "requires_python": ">=3.8",
+    "source": "https://pypi.org/pypi/httpx/json",
+    "files": [
+      {
+        "filename": "httpx-0.28.1-py3-none-any.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2024-12-06T15:37:21.509172Z"
+      },
+      {
+        "filename": "httpx-0.28.1.tar.gz",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2024-12-06T15:37:23.222462Z"
+      }
+    ]
+  },
+  "PyYAML": {
+    "version": "6.0.4",
+    "requires_python": ">=3.10",
+    "source": "https://pypi.org/pypi/PyYAML/json",
+    "files": [
+      {
+        "filename": "pyyaml-6.0.4-cp310-cp310-macosx_10_15_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:39.807190Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp310-cp310-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:41.003174Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:42.300146Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp310-cp310-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:43.419127Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:44.454195Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp310-cp310-musllinux_1_2_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:45.858615Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp310-cp310-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:46.966525Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp310-cp310-win32.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:48.053284Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp310-cp310-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:49.357226Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp311-cp311-macosx_10_15_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:50.753302Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp311-cp311-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:51.629561Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:52.770698Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp311-cp311-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:54.086528Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:55.213108Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp311-cp311-musllinux_1_2_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:56.589399Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp311-cp311-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:57.655334Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp311-cp311-win32.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:58.750331Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp311-cp311-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:34:59.853908Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp312-cp312-macosx_10_15_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:00.829649Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp312-cp312-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:01.826742Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:02.923166Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp312-cp312-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:04.340842Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:05.457744Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp312-cp312-musllinux_1_2_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:06.566743Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp312-cp312-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:07.783484Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp312-cp312-win32.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:08.846466Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp312-cp312-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:09.792771Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp312-cp312-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:10.763301Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp313-cp313-macosx_10_15_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:11.776090Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp313-cp313-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:12.722319Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:14.066771Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp313-cp313-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:15.537538Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:16.681440Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp313-cp313-musllinux_1_2_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:17.734693Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp313-cp313-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:19.171153Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp313-cp313-win32.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:35:20.134334Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp313-cp313-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:22.105922Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp313-cp313-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:23.305602Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314-macosx_10_15_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:24.518643Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:25.675530Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:26.979886Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:28.069186Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:29.189315Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314-musllinux_1_2_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:30.597163Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:31.900378Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314t-macosx_10_15_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:33.086486Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314t-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:34.034860Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:35.210366Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314t-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:36.484996Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:38.247162Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314t-musllinux_1_2_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:39.852766Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314t-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:41.285406Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314t-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:42.238078Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314t-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:43.181370Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:44.254507Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp314-cp314-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:45.191684Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315-macosx_10_15_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:46.145677Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:47.065939Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:48.145523Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:49.294010Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:50.505030Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315-musllinux_1_2_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:51.821948Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:52.959425Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315t-macosx_10_15_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:54.416317Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315t-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:55.651351Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:56.961547Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315t-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:58.077793Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:36:59.165383Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315t-musllinux_1_2_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:37:00.248930Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315t-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:37:01.331798Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315t-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:37:02.300461Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315t-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:37:03.209761Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:37:04.171033Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4-cp315-cp315-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:37:05.079955Z"
+      },
+      {
+        "filename": "pyyaml-6.0.4.tar.gz",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-20T23:37:05.977886Z"
+      }
+    ]
+  },
+  "Jinja2": {
+    "version": "3.1.6",
+    "requires_python": ">=3.7",
+    "source": "https://pypi.org/pypi/Jinja2/json",
+    "files": [
+      {
+        "filename": "jinja2-3.1.6-py3-none-any.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2025-03-05T20:05:00.369721Z"
+      },
+      {
+        "filename": "jinja2-3.1.6.tar.gz",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2025-03-05T20:05:02.478302Z"
+      }
+    ]
+  },
+  "beautifulsoup4": {
+    "version": "4.15.0",
+    "requires_python": ">=3.7.0",
+    "source": "https://pypi.org/pypi/beautifulsoup4/json",
+    "files": [
+      {
+        "filename": "beautifulsoup4-4.15.0-py3-none-any.whl",
+        "requires_python": ">=3.7.0",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-06-07T16:44:21.566528Z"
+      },
+      {
+        "filename": "beautifulsoup4-4.15.0.tar.gz",
+        "requires_python": ">=3.7.0",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-06-07T16:44:20.453113Z"
+      }
+    ]
+  },
+  "defusedxml": {
+    "version": "0.7.1",
+    "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+    "source": "https://pypi.org/pypi/defusedxml/json",
+    "files": [
+      {
+        "filename": "defusedxml-0.7.1-py2.py3-none-any.whl",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "yanked": false,
+        "upload_time_iso_8601": "2021-03-08T10:59:24.450195Z"
+      },
+      {
+        "filename": "defusedxml-0.7.1.tar.gz",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+        "yanked": false,
+        "upload_time_iso_8601": "2021-03-08T10:59:26.269532Z"
+      }
+    ]
+  },
+  "pytest": {
+    "version": "9.2.0",
+    "requires_python": ">=3.10",
+    "source": "https://pypi.org/pypi/pytest/json",
+    "files": [
+      {
+        "filename": "pytest-9.2.0-py3-none-any.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-27T21:30:19.131148Z"
+      },
+      {
+        "filename": "pytest-9.2.0.tar.gz",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-27T21:30:20.728655Z"
+      }
+    ]
+  },
+  "pytest-asyncio": {
+    "version": "1.5.0",
+    "requires_python": ">=3.10",
+    "source": "https://pypi.org/pypi/pytest-asyncio/json",
+    "files": [
+      {
+        "filename": "pytest_asyncio-1.5.0-py3-none-any.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-12T16:35:48.446342Z"
+      },
+      {
+        "filename": "pytest_asyncio-1.5.0.tar.gz",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-12T16:35:49.845430Z"
+      }
+    ]
+  },
+  "pytest-cov": {
+    "version": "7.1.0",
+    "requires_python": ">=3.9",
+    "source": "https://pypi.org/pypi/pytest-cov/json",
+    "files": [
+      {
+        "filename": "pytest_cov-7.1.0-py3-none-any.whl",
+        "requires_python": ">=3.9",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-03-21T20:11:14.438324Z"
+      },
+      {
+        "filename": "pytest_cov-7.1.0.tar.gz",
+        "requires_python": ">=3.9",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-03-21T20:11:16.284275Z"
+      }
+    ]
+  },
+  "ruff": {
+    "version": "0.17.6",
+    "requires_python": ">=3.7",
+    "source": "https://pypi.org/pypi/ruff/json",
+    "files": [
+      {
+        "filename": "ruff-0.17.6-py3-none-linux_armv6l.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:55:52.414980Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-macosx_10_12_x86_64.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:55:54.962940Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:55:57.391135Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:55:59.654855Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:01.807759Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:03.981535Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:05.778875Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:08.016996Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:09.785169Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-manylinux_2_31_riscv64.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:11.718241Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-musllinux_1_2_aarch64.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:13.779027Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-musllinux_1_2_armv7l.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:15.738595Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-musllinux_1_2_i686.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:17.617863Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:19.463577Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-win32.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:21.581595Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-win_amd64.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:23.582553Z"
+      },
+      {
+        "filename": "ruff-0.17.6-py3-none-win_arm64.whl",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:25.269305Z"
+      },
+      {
+        "filename": "ruff-0.17.6.tar.gz",
+        "requires_python": ">=3.7",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-19T15:56:27.106209Z"
+      }
+    ]
+  },
+  "mypy": {
+    "version": "2.4.1",
+    "requires_python": ">=3.10",
+    "source": "https://pypi.org/pypi/mypy/json",
+    "files": [
+      {
+        "filename": "mypy-2.4.1-cp310-cp310-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:56.488296Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:24.159886Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:08.243730Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp310-cp310-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:51.664435Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp310-cp310-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:31.876265Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp310-cp310-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:23:09.193421Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp311-cp311-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:16.612447Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:10.629735Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:48.005030Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp311-cp311-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:57.026520Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp311-cp311-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:48.724984Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp311-cp311-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:32.104079Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp312-cp312-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:54.223255Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:25.211075Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:36.511328Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp312-cp312-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:13.421369Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp312-cp312-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:03.516913Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp312-cp312-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:39.510261Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp313-cp313-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:27.490215Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:08.019842Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:21.555029Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp313-cp313-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:37.557027Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp313-cp313-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:18.081187Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp313-cp313-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:59.003455Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp314-cp314-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:44.977935Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp314-cp314-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:29.492947Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:42.068017Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp314-cp314-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:54.026416Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:41.709941Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp314-cp314t-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:26.757486Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp314-cp314t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:34.371753Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp314-cp314t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:39.425391Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp314-cp314t-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:43.607115Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp314-cp314t-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:29.779135Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp314-cp314t-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:23:11.288027Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp314-cp314-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:13.232053Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp314-cp314-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:23:01.346408Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp315-cp315-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:10.975291Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp315-cp315-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:15.515382Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp315-cp315-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:05.635747Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp315-cp315-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:23:06.512356Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp315-cp315-pyemscripten_2026_5_wasm32.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:59.366461Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp315-cp315t-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:20.528379Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp315-cp315t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:04.779148Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp315-cp315t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:23:03.724904Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp315-cp315t-musllinux_1_2_x86_64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:34.539356Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp315-cp315t-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:51.481199Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp315-cp315t-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:23.136636Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp315-cp315-win_amd64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:22:01.302333Z"
+      },
+      {
+        "filename": "mypy-2.4.1-cp315-cp315-win_arm64.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:46.444764Z"
+      },
+      {
+        "filename": "mypy-2.4.1-py3-none-any.whl",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:21:19.516211Z"
+      },
+      {
+        "filename": "mypy-2.4.1.tar.gz",
+        "requires_python": ">=3.10",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-10-28T19:23:13.286941Z"
+      }
+    ]
+  },
+  "uv": {
+    "version": "0.13.10",
+    "requires_python": ">=3.8",
+    "source": "https://pypi.org/pypi/uv/json",
+    "files": [
+      {
+        "filename": "uv-0.13.10-py3-none-linux_armv6l.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:27.755998Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-macosx_10_12_x86_64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:30.279232Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:33.295112Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:35.473987Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.musllinux_1_1_armv7l.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:37.578464Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:39.990157Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:42.132811Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:44.299892Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:46.795935Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:48.965054Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:50.988620Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-manylinux_2_31_riscv64.musllinux_1_1_riscv64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:53.368892Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-manylinux_2_31_riscv64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:55.594070Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-musllinux_1_1_i686.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:57.619247Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-musllinux_1_1_x86_64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:01:00.944016Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-win32.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:01:03.074431Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-win_amd64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:01:05.972955Z"
+      },
+      {
+        "filename": "uv-0.13.10-py3-none-win_arm64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:01:08.286192Z"
+      },
+      {
+        "filename": "uv-0.13.10.tar.gz",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:01:10.652259Z"
+      }
+    ]
+  },
+  "uv-build": {
+    "version": "0.13.10",
+    "requires_python": ">=3.8",
+    "source": "https://pypi.org/pypi/uv-build/json",
+    "files": [
+      {
+        "filename": "uv_build-0.13.10-py3-none-linux_armv6l.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:32.585992Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-macosx_10_12_x86_64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:34.400210Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-macosx_11_0_arm64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:35.598231Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:37.163109Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:38.384671Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:39.713321Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:41.121256Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:42.296240Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:43.682734Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-manylinux_2_28_aarch64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:44.858055Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-manylinux_2_31_riscv64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:46.216689Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-musllinux_1_1_armv7l.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:47.361974Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-musllinux_1_1_i686.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:48.546598Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-musllinux_1_1_riscv64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:50.133022Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-musllinux_1_1_x86_64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:51.295402Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-win32.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:52.532420Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-win_amd64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:54.024342Z"
+      },
+      {
+        "filename": "uv_build-0.13.10-py3-none-win_arm64.whl",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:55.199989Z"
+      },
+      {
+        "filename": "uv_build-0.13.10.tar.gz",
+        "requires_python": ">=3.8",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-24T21:00:56.323306Z"
+      }
+    ]
+  },
+  "httpx2": {
+    "version": "2.16.2",
+    "requires_python": ">=3.11",
+    "source": "https://pypi.org/pypi/httpx2/json",
+    "files": [
+      {
+        "filename": "httpx2-2.16.2-py3-none-any.whl",
+        "requires_python": ">=3.11",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-16T10:12:18.192333Z"
+      },
+      {
+        "filename": "httpx2-2.16.2.tar.gz",
+        "requires_python": ">=3.11",
+        "yanked": false,
+        "upload_time_iso_8601": "2026-11-16T10:12:20.490478Z"
+      }
+    ]
+  }
+}

@@ -13,6 +13,10 @@ This is not a calendar schedule. Progress depends on exit criteria. Start with a
 | 6. Operations | Jenkins/GitLab manifests, cron/poller, Compose, single publisher | AC-16, independent status, restart recovery and security restrictions |
 | 7. Evaluation & rollout | Historical dry-run, engineer evaluation, thresholds, enablement | Agreed quality criteria, test writes and rollback plan |
 
+## Current boundary (2026-11-27)
+
+The available local Phase 0 work is documented in [technical-spike-results.md](technical-spike-results.md). Corporate checks remain blocked and do not block future file/fixture development. The owner requested a stop before Stage 1; no skeleton implementation has started. Original full-spike acceptance criteria are not waived by local closeout.
+
 ## Technical spike checklist
 
 - Obtain sanitized JUnit, HTML, DUT logs, successful and failed ReportPortal launches with campaign_id, and historical defects with verified causes. Determine actual formats and test ID mapping.

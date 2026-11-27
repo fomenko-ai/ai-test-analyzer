@@ -1,14 +1,14 @@
-# Candidate baseline, 2026-11-25. Not resolved or installed yet.
+# Updated candidates, 2026-11-26. Isolated probe verified; application build pending.
 [project]
 name = "ai-test-analyzer"
 version = "0.1.0"
 requires-python = ">=3.14.10,<3.15"
 dependencies = [
-    "openai==3.59.0",
+    "openai==3.60.0",
     "mcp==2.3.0",
     "pydantic==2.14.4",
     "pydantic-settings==2.16.3",
-    "httpx==0.28.1",
+    "httpx2==2.16.2",
     "PyYAML==6.0.4",
     "Jinja2==3.1.6",
 ]

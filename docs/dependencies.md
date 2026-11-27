@@ -1,6 +1,8 @@
 # Dependencies and Runtime
 
-Inherited candidate snapshot dated 2026-11-25. The versions below are carried forward from the previous design package, not independently re-verified in this documentation revision. A successful joint installation has not been demonstrated. Resolve dependencies, check current stable releases and download/build images on the target Linux/CPython 3.14 environment before adopting this baseline. This table is not a lockfile.
+Phase 0 execution update (2026-11-26): the isolated probe successfully resolved and installed runtime, extras and dev dependencies under CPython 3.14.10 using the official uv 0.13.10 Python image. OpenAI 3.60.0 and owner-approved HTTPX2 2.16.2 replace their inherited candidates in this document and bootstrap template. See [technical-spike-results.md](technical-spike-results.md) and [probe lockfile](../spikes/phase0/uv.lock). Application builds and corporate checks are still pending; the probe lockfile is not an application lockfile.
+
+The original candidate snapshot is dated 2026-11-25, with the Phase 0 updates above. Joint probe installation has been demonstrated on Linux amd64 only. Recheck current stable releases and perform the actual application installation/build on the target platform before adopting a production baseline. This table is not a lockfile.
 
 ## Runtime
 
@@ -9,11 +11,11 @@ Inherited candidate snapshot dated 2026-11-25. The versions below are carried fo
 | CPython | 3.14.10 | [Release](https://www.python.org/downloads/release/python-31410/), standard GIL build; `>=3.14.10,<3.15` |
 | uv | 0.13.10 | [Releases](https://github.com/astral-sh/uv/releases), dependency manager |
 | uv_build | 0.13.10 | [PyPI](https://pypi.org/project/uv-build/0.13.10/), build backend |
-| openai | 3.59.0 | [PyPI](https://pypi.org/project/openai/), Chat Completions with corporate base_url |
+| openai | 3.60.0 | [PyPI](https://pypi.org/project/openai/), Chat Completions with corporate base_url; updated after isolated probe |
 | mcp | 2.3.0 | [PyPI](https://pypi.org/project/mcp/), client SDK; candidate major v2, do not copy v1 API examples without checking |
 | pydantic | 2.14.4 | [PyPI](https://pypi.org/project/pydantic/), contracts |
 | pydantic-settings | 2.16.3 | [PyPI](https://pypi.org/project/pydantic-settings/), configuration and environment |
-| httpx | 0.28.1 | [PyPI](https://pypi.org/project/httpx/), REST and CI artifacts |
+| httpx2 | 2.16.2 | [PyPI](https://pypi.org/project/httpx2/), REST and CI artifacts; owner-approved replacement for httpx |
 | PyYAML | 6.0.4 | [PyPI](https://pypi.org/project/PyYAML/), safe_load + validation |
 | Jinja2 | 3.1.6 | [PyPI](https://pypi.org/project/Jinja2/), controlled templates |
 | beautifulsoup4 | 4.15.0 | [PyPI](https://pypi.org/project/beautifulsoup4/), extra `html`, built-in html.parser |

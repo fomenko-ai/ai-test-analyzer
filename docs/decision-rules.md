@@ -6,6 +6,8 @@ Markdown tells the model how to analyze; YAML defines actions for validated fact
 
 ## Decision order
 
+Owner clarification (2026-11-26): category actions are configurable, including the handling of insufficient evidence. Other categories default to report-only even for needs_investigation or insufficient_data; the generic Investigation Task rules below apply to the supported defect categories and Unknown by default. Technical failures of the analyzer itself always remain report-only and cannot be configured to create Jira issues. An independently verified known test occurrence remains eligible for the existing comment policy; the technical failure itself is never the issue subject. Global publication safety guards cannot be overridden by category rules.
+
 | Priority | Condition | Action |
 |---|---|---|
 | 1 | Jira lookup_failed, missing route or uncertain previous write | Block write and record the reason |

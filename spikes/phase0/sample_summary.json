@@ -1,0 +1,204 @@
+{
+  "selection": "Newest file mtime per outcome; report timestamps recorded separately; not a chronology guarantee",
+  "junit_file_count": 186,
+  "runs_with_failure_or_error": 12,
+  "samples": {
+    "latest_without_failures": {
+      "run_directory": "2026-11-19_09-28-34_279603",
+      "files": {
+        "junit.xml": {
+          "bytes": 39442,
+          "sha256": "d5612a50e621186085bd9f506642ed97eb8651b664cff2866d998144165a1dc1"
+        },
+        "report.html": {
+          "bytes": 229530,
+          "sha256": "405f8ea30ca30634103f9bf64ab1a3273a807dc5cdaf942f3ef5edd2353e6369"
+        },
+        "pytest.log": {
+          "bytes": 3174,
+          "sha256": "ac3da8dc27bb91840c9521bde0df06a9f4adeb53cb2092f7a40f822bf16f7c79"
+        }
+      },
+      "junit_declared": {
+        "tests": 239,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 9
+      },
+      "junit_observed": {
+        "passed": 230,
+        "skipped": 9
+      },
+      "declared_counts_match_cases": true,
+      "duplicate_junit_id_count": 0,
+      "html_outcomes": {
+        "Passed": 230,
+        "Skipped": 9
+      },
+      "html_record_count": 239,
+      "html_duplicate_test_id_count": 0,
+      "candidate_mapping_match_counts": {
+        "1": 239
+      },
+      "candidate_mapping_is_bijective": true,
+      "unmatched_cases_phase_candidate_counts": {},
+      "junit_property_names": [
+        "git_revision",
+        "pytest_version",
+        "python_version",
+        "run_id"
+      ],
+      "run_id_matches_directory": true,
+      "html_run_id_matches_junit": true,
+      "git_sha_has_full_shape": true,
+      "html_sha_matches_junit": true,
+      "git_object_verified": true,
+      "timestamps_timezone_aware": true,
+      "timestamps_utc": [
+        "2026-11-19T06:28:34.293015+00:00"
+      ],
+      "log_line_count": 68,
+      "log_level_mentions": {
+        "INFO": 18,
+        "ERROR": 1,
+        "WARNING": 2
+      },
+      "test_source_read": false,
+      "external_writes": false
+    },
+    "latest_failure": {
+      "run_directory": "2026-10-23_14-27-34_238287",
+      "files": {
+        "junit.xml": {
+          "bytes": 9234,
+          "sha256": "47ee4ff606f63de2688f8acd5be97129b2ca3fb1564ffe957822f4d23724afbf"
+        },
+        "report.html": {
+          "bytes": 73839,
+          "sha256": "b1a1b046f17ce4c65be0221cc52bc47ed1ce2e9bdcc405f41399814633129988"
+        },
+        "pytest.log": {
+          "bytes": 2264,
+          "sha256": "061e3799dcf4c158b79f42d64dc4f512d08e367e3055fea14caece3099d8410e"
+        }
+      },
+      "junit_declared": {
+        "tests": 52,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0
+      },
+      "junit_observed": {
+        "passed": 51,
+        "failed": 1
+      },
+      "declared_counts_match_cases": true,
+      "duplicate_junit_id_count": 0,
+      "html_outcomes": {
+        "Passed": 51,
+        "Failed": 1
+      },
+      "html_record_count": 52,
+      "html_duplicate_test_id_count": 0,
+      "candidate_mapping_match_counts": {
+        "1": 52
+      },
+      "candidate_mapping_is_bijective": true,
+      "unmatched_cases_phase_candidate_counts": {},
+      "junit_property_names": [
+        "git_revision",
+        "pytest_version",
+        "python_version",
+        "run_id"
+      ],
+      "run_id_matches_directory": true,
+      "html_run_id_matches_junit": true,
+      "git_sha_has_full_shape": true,
+      "html_sha_matches_junit": true,
+      "git_object_verified": true,
+      "timestamps_timezone_aware": true,
+      "timestamps_utc": [
+        "2026-10-23T11:27:34.262142+00:00"
+      ],
+      "log_line_count": 53,
+      "log_level_mentions": {
+        "INFO": 2,
+        "ERROR": 1,
+        "WARNING": 2
+      },
+      "test_source_read": false,
+      "external_writes": false
+    },
+    "latest_error": {
+      "run_directory": "2026-09-14_07-43-52_277984",
+      "files": {
+        "junit.xml": {
+          "bytes": 5530,
+          "sha256": "17a04f43d0ad60d2ce32fd1bfc0eb5ccfb826599251c9856707e3ac5e6955cf9"
+        },
+        "report.html": {
+          "bytes": 38804,
+          "sha256": "b9ef6bbb7e4681ff5f3d5d0efb076ea44c7f12cc269e3a14e23a840fd08b71cd"
+        },
+        "pytest.log": {
+          "bytes": 5603,
+          "sha256": "d2f647014e16c26eba15e0fb86d810786e38bbddbc2652800de57b4abae1276c"
+        }
+      },
+      "junit_declared": {
+        "tests": 1,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0
+      },
+      "junit_observed": {
+        "error": 1
+      },
+      "declared_counts_match_cases": true,
+      "duplicate_junit_id_count": 0,
+      "html_outcomes": {
+        "Error": 1
+      },
+      "html_record_count": 1,
+      "html_duplicate_test_id_count": 0,
+      "candidate_mapping_match_counts": {
+        "0": 1
+      },
+      "candidate_mapping_is_bijective": false,
+      "unmatched_cases_phase_candidate_counts": {
+        "1": 1
+      },
+      "junit_property_names": [
+        "git_revision",
+        "marker_sequence",
+        "pytest_version",
+        "python_version",
+        "run_id",
+        "scenario",
+        "stand"
+      ],
+      "run_id_matches_directory": true,
+      "html_run_id_matches_junit": true,
+      "git_sha_has_full_shape": true,
+      "html_sha_matches_junit": true,
+      "git_object_verified": true,
+      "timestamps_timezone_aware": true,
+      "timestamps_utc": [
+        "2026-09-14T04:43:52.298154+00:00"
+      ],
+      "log_line_count": 117,
+      "log_level_mentions": {
+        "INFO": 2,
+        "ERROR": 1
+      },
+      "test_source_read": false,
+      "external_writes": false
+    }
+  },
+  "limitations": [
+    "Original contents, local absolute paths, hostnames and test names are omitted",
+    "Candidate ID reconstruction is an experiment for this pytest-html format, not an adopted adapter contract",
+    "Retry, campaign and stand semantics are not inferred",
+    "JUnit is used as the counting source for this probe only; HTML and logs are not added to its totals"
+  ]
+}

@@ -23,6 +23,8 @@
 
 ## Non-functional requirements
 
+Owner clarification (2026-11-26): actions for test-analysis categories and insufficient evidence are configurable in YAML. Other categories default to report-only, including when evidence is insufficient. Analyzer technical failures (including connection errors) always appear only in reports and technical statuses; configuration must not turn them into Jira issues. This does not prevent independently verified known test failures from receiving occurrence comments.
+
 - NFR-01: Linux, CPython 3.14, CLI via uv, Docker Compose plugin. See [dependencies.md](dependencies.md). Environments: local computer, server, CI runner.
 - NFR-02: One test project, multiple stands, 100–1000 tests. Measure performance and model limits during the spike.
 - NFR-03: Independent analyzer status; never overwrite test results.

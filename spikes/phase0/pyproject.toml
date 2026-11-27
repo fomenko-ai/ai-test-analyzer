@@ -1,0 +1,17 @@
+[project]
+name = "analyzer-phase0-probe"
+version = "0.0.0"
+requires-python = ">=3.14.10,<3.15"
+dependencies = ["openai==3.60.0", "mcp==2.3.0", "pydantic==2.14.4", "pydantic-settings==2.16.3", "httpx2==2.16.2", "PyYAML==6.0.4", "Jinja2==3.1.6"]
+[project.optional-dependencies]
+html = ["beautifulsoup4==4.15.0"]
+junit = ["defusedxml==0.7.1"]
+[dependency-groups]
+# Legacy HTTPX is retained only for the synthetic comparison tests.
+dev = ["pytest==9.2.0", "pytest-asyncio==1.5.0", "pytest-cov==7.1.0", "ruff==0.17.6", "mypy==2.4.1", "httpx==0.28.1", "uv_build==0.13.10"]
+[tool.uv]
+package = false
+required-version = "==0.13.10"
+
+[tool.pytest.ini_options]
+asyncio_default_fixture_loop_scope = "function"

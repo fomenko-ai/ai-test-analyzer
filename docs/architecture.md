@@ -56,6 +56,14 @@ flowchart TD
 
 Read adapters return typed data and provenance. Write adapters return an external ID, confirmation or uncertain outcome. Check capabilities at startup according to the execution mode. REST fallback is allowed for an operation unsupported by MCP; never switch blindly to REST after a write timeout. Supply secrets via environment or corporate secret store.
 
+## Execution model
+
+Agreed: asynchronous I/O with a synchronous domain core. The CLI starts one asyncio event loop; application use cases await typed ports for ReportPortal, MCP, REST and LLM calls. Independent reads and failure-group analysis may run concurrently within configured request, time and concurrency budgets. No additional queue service is required.
+
+Normalization, fingerprinting, evidence validation, business rules and report rendering remain ordinary synchronous functions. The domain does not depend on asyncio or integration SDKs. Adapter implementation details and MCP asynchronous client support must be verified during the Technical Spike.
+
+Publication uses asynchronous clients but executes external write operations sequentially. Persist each intent before the write and its outcome before proceeding; reconcile uncertain outcomes before any retry. Cancellation or timeout does not prove that an external write failed. Local filesystem and Git operations may remain synchronous; use asyncio.to_thread where necessary to avoid blocking the event loop, while preserving journal ordering.
+
 ## State and concurrency
 
 JSON: per-run checkpoints, action plans, outcomes and fingerprint cache; write via temporary file and atomic replace, use local locking and directory permissions. Jira is the persistent defect and verified mapping registry. Confluence is the external report registry; ReportPortal holds test history. Select one canonical publisher for production MVP with a persistent volume/directory. Other environments run in dry-run or publish only when exclusivity and access to the current journal are assured. JSON plus Jira search does not provide exactly-once semantics or prevent distributed races. Reconcile uncertain outcomes; require manual resolution when reconciliation is impossible. No automatic parallel publication in MVP.

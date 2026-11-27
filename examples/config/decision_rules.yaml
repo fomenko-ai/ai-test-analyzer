@@ -27,10 +27,10 @@ rules:
     conditions: {duplicate_status: not_found, category: stand_issue, root_cause_supported: true, analysis_status: analyzed}
     action: create_routed_issue
   - id: unresolved
-    conditions: {analysis_status: needs_investigation}
+    conditions: {analysis_status: needs_investigation, investigation_category_enabled: true}
     action: find_or_create_investigation
   - id: insufficient_data
-    conditions: {analysis_status: insufficient_data}
+    conditions: {analysis_status: insufficient_data, investigation_category_enabled: true}
     action: find_or_create_investigation
   - id: unknown
     conditions: {category: unknown}
@@ -38,6 +38,10 @@ rules:
 default_action: report_only
 # Global guards: publication_blocked derived from lookup_failed, missing route,
 # unresolved previous write etc. Never trust LLM-supplied guard values.
+# Derived investigation_category_enabled defaults to true for product_bug,
+# automation_bug, stand_issue and unknown; false for other categories.
+# Category investigation eligibility is configurable. Technical analyzer failures
+# are always report-only; reject configuration attempting to create issues for them.
 closed_issue_policy:
   rules: []
   default_action: defer_publication
