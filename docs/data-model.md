@@ -30,3 +30,13 @@ Versioned JSON contracts with Pydantic. External object identifiers are strings;
 A comment key includes the confirmed defect ID and occurrence ID (run_key + corresponding group/items), not the date or new analysis ID. Group comments contain covered occurrence IDs; overlapping campaign analysis must not comment again on covered occurrences. A Bug creation key derives from stable defect identity. Ambiguous matches and Investigation Tasks use a separate stable symptom/scope key. A report key is determined by report scope, not publication time; reruns update the existing page. Choose external marker formats after validating Jira/Confluence capabilities.
 
 Input and model response examples: `../examples/contracts/`. They are illustrative; generate final JSON Schemas from implemented models and verify them in contract tests.
+
+## Stage 1 implemented subset
+
+The Pydantic contracts in `src/ai_test_analyzer/domain/models.py` implement FileContext, Settings, SourceRun, TestRun, TestItem, EvidenceRef, Statistics and a non-executable DryRunPlan. The larger entity table above remains the target design. FileContext is a separate local input contract; it does not replace the future ReportPortal RunContext example.
+
+`file-v1-` run keys hash the effective file context and exact artifact digest, so conflicting file revisions cannot silently share a key. Moving the same bytes to another authorized path does not change the key. Item keys include the run, hashed original classname/name and document-order index; duplicate testcase records are preserved. These local keys are not defect fingerprints or adopted publication markers. Changing artifact bytes, record order or context can change keys; cross-revision source identity and retry reconciliation remain future work.
+
+Evidence addresses the exact artifact SHA256 and zero-based testcase document-order index. It requires the original authorized file and is not a public URL. SHA presence in metadata does not verify Git source availability. Raw test names, source paths, messages, logs and arbitrary properties are deliberately omitted from saved outputs; node_id and attempt are null because no pytest node reconstruction or retry interpretation is performed.
+
+Statistics count records once from JUnit only. Conflicting context/source values become null with provenance `conflict`; missing metadata remains null. Source count disagreements are explicit data conflicts, not silently corrected source results. Aware suite timestamps are normalized to UTC; the earliest timestamp is used only when all suites supply aware timestamps. Missing/naive/invalid timestamps leave started_at null.

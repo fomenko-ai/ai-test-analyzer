@@ -1,0 +1,4 @@
+# Stage 1 local settings; corporate configuration examples are future contracts.
+schema_version: '1.0'
+publish_enabled: false
+max_xml_bytes: 10485760

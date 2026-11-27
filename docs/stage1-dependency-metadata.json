@@ -1,0 +1,107 @@
+{
+  "checked_on": "2026-11-27",
+  "source_kind": "public_registry_metadata",
+  "packages": {
+    "openai": {
+      "version": "3.60.0",
+      "requires_python": ">=3.10",
+      "source": "https://pypi.org/pypi/openai/json",
+      "all_files_not_yanked": true
+    },
+    "mcp": {
+      "version": "2.3.0",
+      "requires_python": ">=3.10",
+      "source": "https://pypi.org/pypi/mcp/json",
+      "all_files_not_yanked": true
+    },
+    "pydantic": {
+      "version": "2.14.4",
+      "requires_python": ">=3.10",
+      "source": "https://pypi.org/pypi/pydantic/json",
+      "all_files_not_yanked": true
+    },
+    "pydantic-settings": {
+      "version": "2.16.3",
+      "requires_python": ">=3.11",
+      "source": "https://pypi.org/pypi/pydantic-settings/json",
+      "all_files_not_yanked": true
+    },
+    "httpx2": {
+      "version": "2.16.2",
+      "requires_python": ">=3.11",
+      "source": "https://pypi.org/pypi/httpx2/json",
+      "all_files_not_yanked": true
+    },
+    "PyYAML": {
+      "version": "6.0.4",
+      "requires_python": ">=3.10",
+      "source": "https://pypi.org/pypi/PyYAML/json",
+      "all_files_not_yanked": true
+    },
+    "Jinja2": {
+      "version": "3.1.6",
+      "requires_python": ">=3.7",
+      "source": "https://pypi.org/pypi/Jinja2/json",
+      "all_files_not_yanked": true
+    },
+    "beautifulsoup4": {
+      "version": "4.15.0",
+      "requires_python": ">=3.7.0",
+      "source": "https://pypi.org/pypi/beautifulsoup4/json",
+      "all_files_not_yanked": true
+    },
+    "defusedxml": {
+      "version": "0.7.1",
+      "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+      "source": "https://pypi.org/pypi/defusedxml/json",
+      "all_files_not_yanked": true
+    },
+    "pytest": {
+      "version": "9.2.0",
+      "requires_python": ">=3.10",
+      "source": "https://pypi.org/pypi/pytest/json",
+      "all_files_not_yanked": true
+    },
+    "pytest-asyncio": {
+      "version": "1.5.0",
+      "requires_python": ">=3.10",
+      "source": "https://pypi.org/pypi/pytest-asyncio/json",
+      "all_files_not_yanked": true
+    },
+    "pytest-cov": {
+      "version": "7.1.0",
+      "requires_python": ">=3.9",
+      "source": "https://pypi.org/pypi/pytest-cov/json",
+      "all_files_not_yanked": true
+    },
+    "ruff": {
+      "version": "0.17.6",
+      "requires_python": ">=3.7",
+      "source": "https://pypi.org/pypi/ruff/json",
+      "all_files_not_yanked": true
+    },
+    "mypy": {
+      "version": "2.4.1",
+      "requires_python": ">=3.10",
+      "source": "https://pypi.org/pypi/mypy/json",
+      "all_files_not_yanked": true
+    },
+    "uv": {
+      "version": "0.13.10",
+      "requires_python": ">=3.8",
+      "source": "https://pypi.org/pypi/uv/json",
+      "all_files_not_yanked": true
+    },
+    "uv-build": {
+      "version": "0.13.10",
+      "requires_python": ">=3.8",
+      "source": "https://pypi.org/pypi/uv-build/json",
+      "all_files_not_yanked": true
+    }
+  },
+  "python": {
+    "branch": "3.14",
+    "latest_directory_observed": "3.14.10",
+    "source": "https://www.python.org/ftp/python/"
+  }
+}

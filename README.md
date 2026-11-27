@@ -2,7 +2,7 @@
 
 Design documentation version: **0.1.0 (MVP)**. 
 
-**Status:** Local Phase 0 closeout is documented in [technical-spike-results.md](docs/technical-spike-results.md); corporate checks remain blocked. Stage 1 has not started. Requirements agreed; architecture proposed. This is a design package, not a working application. Commands, configuration schemas and contracts describe the future implementation. Corporate integrations have not been tested.
+**Status:** Stage 1 implements a local JUnit dry-run: configuration/context validation, normalized results, evidence references, an HTML report and a non-executable plan. Corporate integrations and cause analysis are not implemented. See [Stage 1 results](docs/stage1-results.md) and [Phase 0 results](docs/technical-spike-results.md).
 
 `ai-test-analyzer` is a CI/CD-independent, AI-powered test results analyzer. It collects results and logs, groups failures, identifies known defects, analyzes unknown failures using a corporate LLM, applies business rules, creates Jira issues and comments, and publishes Confluence reports. It is not limited to nightly runs or regression testing.
 
@@ -25,16 +25,53 @@ Design documentation version: **0.1.0 (MVP)**.
 | [adr.md](docs/adr.md) | Architecture decision records |
 | [examples/](examples/) | Configuration, context, analysis and bootstrap examples |
 | [SKILL.md](skills/test-failure-investigation/SKILL.md) | Instructions for an external investigation agent |
+| [Corporate collection task](docs/development-prompts/02-corporate-collection.md) | Next Stage 2 task for the authorized corporate environment; execute only when requested |
+| [Report adaptation skill](skills/adapt-internal-test-reports/SKILL.md) | Adapt analyzer code to real internal test reports and failure examples |
 
-## Getting started
+## Local dry-run
 
-For AI-assisted development, start with [the project initialization prompt](docs/development-prompts/01-project-initialization.md). Ask your coding agent to read and execute that file. Review the resulting Technical Spike plan before approving implementation.
+Requires Linux, uv 0.13.10 and CPython 3.14.10. The commands below were exercised inside the pinned official uv container; the host toolchain was not upgraded. Installation may access public PyPI; the analyzer itself uses local files only.
 
-1. Read `AGENTS.md`, the requirements and the architecture.
-2. Perform the technical spike described in `docs/implementation-plan.md` without writing to production systems.
-3. Implement an end-to-end dry-run using fixtures before enabling publication.
-4. Evaluate historical failures and agree on automation thresholds.
-5. Enable automatic publication only after meeting the acceptance criteria.
+```sh
+uv sync --locked --all-extras --group dev
+uv run --locked ai-test-analyzer --help
+uv run --locked ai-test-analyzer analyze \
+  --source junit --input tests/fixtures/results.xml \
+  --config config/local.yaml --context examples/contracts/file-context.json \
+  --output data/fixture-1
+```
+
+The fixture is synthetic. Choose a **new** output directory on every run. Outputs are `normalized.json`, `plan.json` and `report.html`, with private filesystem permissions. Repeating the same inputs/context preserves identifiers; existing output directories are rejected. The original XML is never copied or modified.
+
+Configuration and context are optional. Settings default to dry-run and a 10 MiB XML limit. Unknown/duplicate keys, invalid values and publication enablement are rejected. Explicit context supplements JUnit metadata; differing values produce a conflict and a null effective value. Missing stand, campaign, SHA or versions remain missing. See [the implemented contract and limitations](docs/stage1-results.md).
+
+The plan records a required investigation for each failed/error testcase, blocked pending analysis and duplicate lookup. It contains no executable Jira payload. Testcase records are counted without interpreting retries. Raw names/messages/logs and arbitrary properties are omitted; evidence uses the source SHA256 and zero-based testcase index. Keep the original authorized XML available to inspect evidence.
+
+Exit codes: 0 successful local dry-run, 2 report produced with data conflicts, 1 input/configuration/output failure; argparse usage errors return 2. Test failures are statistics and do not themselves fail the analyzer. A complete local dry-run does not mean cause analysis has run or corporate publication is ready.
+
+```sh
+docker build -t ai-test-analyzer:0.1.0 .
+docker run --rm --network none ai-test-analyzer:0.1.0 --help
+docker run --rm --network none --read-only \
+  --tmpfs /tmp:rw,nosuid,nodev,size=32m \
+  -v "$PWD/tests/fixtures:/fixtures:ro" \
+  ai-test-analyzer:0.1.0 analyze --input /fixtures/results.xml --output /tmp/fixture
+```
+
+The last command is a disposable smoke test; its report disappears with the container. For retained reports, mount an authorized writable destination and supply a new output path. The image runs as UID/GID 10001 and has no corporate credentials or Docker socket. `examples/config/default.yaml` and the ReportPortal RunContext example remain future specifications, not supported local configuration.
+
+## Development checks
+
+```sh
+uv sync --locked --all-extras --group dev
+uv run --locked pytest
+uv run --locked ruff check .
+uv run --locked ruff format --check .
+uv run --locked mypy src
+uv build
+```
+
+Ruff checks E/F/I excluding E501; experimental spike files and bootstrap templates have separate checks. Dependencies are locked and must not be updated on each CI run. Stage 2 corporate collection requires the missing access/contracts; see the implementation plan. Publication remains unavailable.
 
 ## MVP limitations
 
@@ -42,4 +79,4 @@ One test project, multiple stands, 100–1000 tests per considered run/campaign 
 
 ## Development environment
 
-Linux, CPython 3.14 and uv. The inherited candidate baseline is dated 2026-11-25; see [docs/dependencies.md](docs/dependencies.md). `examples/bootstrap/` contains a proposed `pyproject.toml`, `.python-version` and Dockerfile for the future skeleton. These are specifications, not a verified build. Generate a real `uv.lock` during implementation, after checking the latest stable compatible versions. Do not deploy unverified versions to production.
+Linux, CPython 3.14.10 and uv 0.13.10. The root `pyproject.toml`, `uv.lock`, `.python-version` and digest-pinned Dockerfile define the implemented application. Current public metadata and actual verification are recorded in [docs/stage1-results.md](docs/stage1-results.md). Bootstrap examples are historical templates; the root project is authoritative. No production baseline or corporate integration acceptance is claimed.

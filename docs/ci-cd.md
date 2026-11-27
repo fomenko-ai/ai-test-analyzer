@@ -1,5 +1,7 @@
 # Execution and Operations
 
+Stage 1 supports only local `analyze --source junit --input FILE --output NEW_DIRECTORY [--config YAML] [--context JSON]`. See README.md and [stage1-results.md](stage1-results.md) for exercised commands, the implemented file context and exit behavior. The ReportPortal/group/publish/discover/poll/resume examples below remain future contracts. CI installation must use `uv sync --locked`; no CI provider or corporate manifest integration has been tested.
+
 The following CLI contract and integration scenarios describe the future application, not commands of an installed package. Jenkins and GitLab supply the same RunContext and share business logic. Support uv and Docker Compose on Linux.
 
 ```bash

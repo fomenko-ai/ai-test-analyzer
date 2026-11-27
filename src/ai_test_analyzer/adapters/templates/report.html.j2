@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Local JUnit dry-run</title>
+<h1>Local JUnit dry-run</h1>
+<p>Run: {{ run.run_key }}</p>
+<p>Counts are testcase records; retries have not been resolved.</p>
+<table><caption>Source-derived statistics</caption><tr><th>Total<th>Passed<th>Failed<th>Error<th>Skipped
+<tr><td>{{ run.statistics.total }}<td>{{ run.statistics.passed }}<td>{{ run.statistics.failed }}<td>{{ run.statistics.error }}<td>{{ run.statistics.skipped }}</table>
+<h2>Limitations</h2><ul>{% for text in plan.limitations %}<li>{{ text }}</li>{% endfor %}</ul>
+<h2>Missing data</h2><ul>{% for text in run.missing_data %}<li>{{ text }}</li>{% endfor %}</ul>
+<h2>Data conflicts</h2><ul>{% for text in run.data_conflicts %}<li>{{ text }}</li>{% endfor %}</ul>
+<h2>Required investigations</h2><p>{{ plan.investigations | length }}; blocked pending analysis and duplicate lookup. No Jira operations planned or executed.</p>
+<table><caption>Testcase evidence (zero-based document order)</caption><tr><th>Item<th>Status<th>Evidence
+{% for item in run.test_items %}<tr><td>{{ item.item_key }}<td>{{ item.status }}<td>{{ item.evidence_refs[0].source_uri_or_id }} — testcase {{ item.evidence_refs[0].testcase_index }}{% endfor %}</table>
+</html>

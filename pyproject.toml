@@ -1,0 +1,53 @@
+# Application baseline; verification is recorded in docs/stage1-results.md.
+[project]
+name = "ai-test-analyzer"
+version = "0.1.0"
+requires-python = ">=3.14.10,<3.15"
+dependencies = [
+    "openai==3.60.0",
+    "mcp==2.3.0",
+    "pydantic==2.14.4",
+    "pydantic-settings==2.16.3",
+    "httpx2==2.16.2",
+    "PyYAML==6.0.4",
+    "Jinja2==3.1.6",
+]
+
+[project.optional-dependencies]
+html = ["beautifulsoup4==4.15.0"]
+junit = ["defusedxml==0.7.1"]
+
+[project.scripts]
+ai-test-analyzer = "ai_test_analyzer.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest==9.2.0",
+    "pytest-asyncio==1.5.0",
+    "pytest-cov==7.1.0",
+    "ruff==0.17.6",
+    "mypy==2.4.1",
+]
+
+[build-system]
+requires = ["uv_build==0.13.10"]
+build-backend = "uv_build"
+
+[tool.uv]
+required-version = "==0.13.10"
+
+[tool.ruff]
+target-version = "py314"
+extend-exclude = ["spikes", "examples/bootstrap"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.14"
+check_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_default_fixture_loop_scope = "function"

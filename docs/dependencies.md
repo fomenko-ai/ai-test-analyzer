@@ -1,5 +1,7 @@
 # Dependencies and Runtime
 
+Stage 1 update (2026-11-27): public PyPI metadata and the official Python 3.14 directory were rechecked; direct stable candidates and Python 3.14.10 remain current in those observations. The root application now has a generated `uv.lock` (57 entries), verified all-extras/dev installation on Linux amd64, tests, typing, sdist/wheel and container checks. See [stage1-results.md](stage1-results.md) and [metadata](stage1-dependency-metadata.json). Corporate validation, approved vulnerability scans and other architectures remain pending. This is a local development baseline, not production acceptance.
+
 Phase 0 execution update (2026-11-26): the isolated probe successfully resolved and installed runtime, extras and dev dependencies under CPython 3.14.10 using the official uv 0.13.10 Python image. OpenAI 3.60.0 and owner-approved HTTPX2 2.16.2 replace their inherited candidates in this document and bootstrap template. See [technical-spike-results.md](technical-spike-results.md) and [probe lockfile](../spikes/phase0/uv.lock). Application builds and corporate checks are still pending; the probe lockfile is not an application lockfile.
 
 The original candidate snapshot is dated 2026-11-25, with the Phase 0 updates above. Joint probe installation has been demonstrated on Linux amd64 only. Recheck current stable releases and perform the actual application installation/build on the target platform before adopting a production baseline. This table is not a lockfile.

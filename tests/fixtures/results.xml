@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Synthetic fixture; no corporate or equipment data. -->
+<testsuites><testsuite tests="4" failures="1" errors="1" skipped="1" timestamp="2026-11-27T12:00:00+03:00">
+  <properties><property name="run_id" value="synthetic-run"/></properties>
+  <testcase classname="synthetic.example" name="passed" time="0.1"/>
+  <testcase classname="synthetic.example" name="failed" time="0.2"><failure message="synthetic failure"/></testcase>
+  <testcase classname="synthetic.example" name="error" time="0.3"><error message="synthetic setup error"/></testcase>
+  <testcase classname="synthetic.example" name="skipped" time="0"><skipped message="synthetic skip"/></testcase>
+</testsuite></testsuites>

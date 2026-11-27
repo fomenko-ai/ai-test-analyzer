@@ -15,7 +15,7 @@ This is not a calendar schedule. Progress depends on exit criteria. Start with a
 
 ## Current boundary (2026-11-27)
 
-The available local Phase 0 work is documented in [technical-spike-results.md](technical-spike-results.md). Corporate checks remain blocked and do not block future file/fixture development. The owner requested a stop before Stage 1; no skeleton implementation has started. Original full-spike acceptance criteria are not waived by local closeout.
+The available local Phase 0 work is documented in [technical-spike-results.md](technical-spike-results.md). The owner subsequently authorized continuation. Stage 1 implements the local JUnit/file vertical slice; see [stage1-results.md](stage1-results.md) for verified checks and limitations. Stage 2 ReportPortal collection has not started. Corporate checks remain blocked; original full-spike and publication acceptance criteria are not waived.
 
 ## Technical spike checklist
 

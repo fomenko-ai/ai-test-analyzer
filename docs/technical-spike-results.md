@@ -1,6 +1,6 @@
 # Phase 0 — Technical Spike Results
 
-Date: 2026-11-27. Status: local Phase 0 closeout; corporate checks remain blocked. Public sources were approved by the owner. No application implementation, corporate integration tests or external writes have been performed. Stage 1 has not started, following the owner's current stop instruction.
+Date: 2026-11-27. Status: local Phase 0 closeout; corporate checks remain blocked. Public sources were approved by the owner. No application implementation, corporate integration tests or external writes have been performed. Stage 1 had not started at this closeout, following the owner's stop instruction. Subsequent authorized implementation is recorded separately in [stage1-results.md](stage1-results.md).
 
 ## Local environment inventory
 
